@@ -23,7 +23,7 @@
 		531FB060289CEFC100F17A13 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		531FB062289CF14200F17A13 /* AppUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppUtility.swift; sourceTree = "<group>"; };
 		531FB06B289D3ADA00F17A13 /* RoamExample.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RoamExample.entitlements; sourceTree = "<group>"; };
-		532CEDC1289BD79A00AD7099 /* With Filter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "With Filter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		532CEDC1289BD79A00AD7099 /* Without Filter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Without Filter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		532CEDC4289BD79A00AD7099 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		532CEDC6289BD79A00AD7099 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		532CEDC8289BD79A00AD7099 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -60,7 +60,7 @@
 		532CEDC2289BD79A00AD7099 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				532CEDC1289BD79A00AD7099 /* With Filter.app */,
+				532CEDC1289BD79A00AD7099 /* Without Filter.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -118,7 +118,7 @@
 			);
 			name = RoamExample;
 			productName = RoamExample;
-			productReference = 532CEDC1289BD79A00AD7099 /* With Filter.app */;
+			productReference = 532CEDC1289BD79A00AD7099 /* Without Filter.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -385,8 +385,8 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.roam.example1;
-				PRODUCT_NAME = "With Filter";
+				PRODUCT_BUNDLE_IDENTIFIER = com.roam.testexample;
+				PRODUCT_NAME = "Without Filter";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -420,8 +420,8 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.roam.example1;
-				PRODUCT_NAME = "With Filter";
+				PRODUCT_BUNDLE_IDENTIFIER = com.roam.testexample;
+				PRODUCT_NAME = "Without Filter";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;

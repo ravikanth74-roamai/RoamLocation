@@ -14,7 +14,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate,RoamDelegate{
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        Roam.initialize("410a3cc25f7cf783420fde6b45427f2cf2035525f036e534fa61b827e9b1de0d")
+        Roam.initialize("76833a2e6af0d8eb67c84782647c660e2b5f49ce2996b0551a25a0e4a37a271d")
         Roam.delegate = self
         
         UNUserNotificationCenter.current().requestAuthorization(options: [.alert, .sound, .badge]) { granted, error in
