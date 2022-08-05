@@ -1,0 +1,21 @@
+PODS:
+  - roam-ios (0.1.3)
+
+DEPENDENCIES:
+  - roam-ios (from `https://github.com/bimal-geospark/TestSDK.git`)
+
+EXTERNAL SOURCES:
+  roam-ios:
+    :git: https://github.com/bimal-geospark/TestSDK.git
+
+CHECKOUT OPTIONS:
+  roam-ios:
+    :commit: da04086c5d4213499658f694a859db54fd7b15b3
+    :git: https://github.com/bimal-geospark/TestSDK.git
+
+SPEC CHECKSUMS:
+  roam-ios: c32ed100d33acdf08cac5273f54145c6e3f19be9
+
+PODFILE CHECKSUM: fabb996e6979a3b776fd0e250d332335ec5a4788
+
+COCOAPODS: 1.11.2
